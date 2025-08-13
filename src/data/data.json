@@ -1,0 +1,380 @@
+{
+  "name": "Manish Yadav",
+  "logo": "Manish Yadav",
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Skills", "href": "/skills" },
+    { "label": "Certifications", "href": "/certifications" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "skills": [
+    {
+      "title": "Web Development",
+      "description": "Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Tailwind CSS, with state management using Redux. Experienced in building responsive, interactive, and SEO-friendly web applications.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        "https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "description": "Solid understanding of Python with Django, Django REST Framework (DRF), and FastAPI. Experienced in designing secure, scalable REST APIs, implementing asynchronous tasks with Celery and Redis, and managing databases like MySQL and SQLite.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "description": "Knowledgeable in machine learning algorithms, neural networks, NLP, and model deployment. Skilled in libraries like NumPy, Pandas, scikit-learn, Matplotlib, Seaborn, TensorFlow, NLTK, and spaCy.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+      ]
+    },
+    {
+      "title": "Flutter Cross-Platform",
+      "description": "Experienced in Flutter for building cross-platform apps (Android, iOS, web, and desktop) with state management using GetX and BLoC for efficient, maintainable, and scalable app development.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+      ]
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Skilled in user-centered design, wireframing, and prototyping using tools like Figma. Focused on creating intuitive, accessible, and visually appealing user experiences.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+      ]
+    },
+    {
+      "title": "Automation",
+      "description": "Proficient in automating workflows, browser interactions, and testing using tools like Selenium, Playwright, and Celery. Capable of building custom bots and process automation solutions.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+      ]
+    },
+    {
+      "title": "Web Scraping",
+      "description": "Experienced in extracting structured and unstructured data from websites using Python libraries such as BeautifulSoup, Scrapy, and Selenium, with handling for dynamic and JavaScript-heavy pages.",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Data Analytics and Machine Learning",
+      "description": "Completed a comprehensive program covering statistical analysis, predictive modeling, and various ML algorithms.",
+      "issued_by:": "Uniwersity WorksShop"
+    },
+    {
+      "title": "Problem Solving in C",
+      "description": "Achieved certification from IIT Kharagpur through NPTEL, demonstrating strong foundational programming and algorithmic skills.",
+      "issued_by:": "IIT Kharagpur (NPTEL)"
+    },
+    {
+      "title": "Programming in Java",
+      "description": "Certified by IIT Kharagpur, showcasing proficiency in object-oriented programming concepts and Java application development.",
+      "issued_by:": "IIT Kharagpur (NPTEL)"
+    }
+  ],
+  "projects": [
+    {
+      "title": "LinkedIn & Resume Analyzer",
+      "description": "Built an intelligent LinkedIn and Resume Analyzer for automating candidate evaluation. Utilized Selenium with undetected ChromeDriver to scrape and extract relevant professional data. Integrated NLP (spaCy) for skill extraction and resume parsing, combined with FastAPI and Celery for scalable background processing. Added ATS score evaluation and Gemini AI integration for personalized weakness detection and actionable improvement suggestions.",
+      "image": "/site/images/linkedin_analyzer.png",
+      "github": "https://github.com/manishgk9/linkedLensAnalyzer",
+      "key_technology": [
+        "🔗 Analyze LinkedIn profiles directly using a username",
+        "📄 Upload PDF resumes and extract data with SpaCy",
+        "🧠 Generate Gemini-powered analysis (summary, ATS score, sections)",
+        "🕵️ Data scraping with Selenium + BeautifulSoup",
+        "📦 Queue processing with Celery + Redis",
+        "🎥 Tailwind-based UI with responsive design",
+        "🔧 Debug with /logs route and activity logging",
+        "🔐 Clean separation of frontend and backend"
+      ]
+    },
+    {
+      "title": "Twitter Opinion Miner",
+      "description": "Developed a sentiment analysis and trend detection tool for Twitter data. Leveraged Twitter API and Twikit for authentication and scraping. Built a custom logistic regression model trained on over 1 million tweets to improve classification accuracy. Added real-time sentiment tracking for live tweets, along with dashboards to display sentiment distribution and trending hashtags.",
+      "image": "/site/images/sentiment_miner.png",
+      "github": "https://github.com/manishgk9/twiiter_openion_miner",
+      "key_technology": [
+        "Twitter API + Twikit integration",
+        "Custom logistic regression model",
+        "Trained on 1M+ tweets dataset",
+        "Real-time sentiment tracking",
+        "NLP-based sentiment analysis",
+        "Django + Django REST Framework",
+        "React + Redux + Axios for UI",
+        "Tailwind CSS for charts and styling"
+      ]
+    },
+
+    {
+      "title": "Internshala Auto Applier",
+      "description": "Developed an automated system using React, Django, and Selenium to streamline internship applications on Internshala. Designed and implemented a responsive user interface (UI) for seamless navigation and user interaction. Integrated Django backend to ensure robust functionality and data management capabilities. Implemented features to automatically fill out application forms, saving significant time for multiple applications.",
+      "image": "/site/images/internshala_applier.png",
+      "github": "https://github.com/manishgk9/internshala-auto-job-applier",
+      "key_technology": [
+        "Get All Matching Jobs — Automatically scrape and filter jobs based on your profile and saved preferences.",
+        "Apply to Specific Jobs — Select individual jobs and apply instantly.",
+        "Bulk Apply — Select multiple jobs and apply to them in one batch operation.",
+        "Search Jobs by Query — Keyword-based job search with advanced filtering.",
+        "Apply via Queue — Add selected jobs to an application queue and let Celery handle the rest.",
+        "Auto Assignment Solver — Automatically complete skill/aptitude tests using Gemini AI.",
+        "AI Cover Letter Generator — Creates job-specific cover letters with a professional tone.",
+        "Undetectable Automation — Uses undetected-chromedriver to avoid detection by Internshala's bot checks.",
+        "Task Scheduling — Automate periodic searches and applications."
+      ]
+    },
+    {
+      "title": "Plant Disease Detection System",
+      "description": "Developed Plant Disease Detection System models with 90% accuracy for identifying plant diseases. Utilized Kaggle datasets for training and testing. Implemented Django backend for seamless integration and functionality.",
+      "image": "https://envii.co.uk/cdn/shop/files/1285.jpg?v=1740500632&width=1100",
+      "github": "https://github.com/manishgk9/",
+      "key_technology": [
+        "90% Accuracy in Disease Identification",
+        "Utilized CNN for model development",
+        "Kaggle datasets for training/testing",
+        "Django backend for integration",
+        "Seamless functionality"
+      ]
+    },
+    {
+      "title": "Gimini Chatbot App",
+      "description": "This project is a fully functional Gemini-powered chatbot app built with Flutter using the BLoC pattern and persistent storage with Hive. Users can chat with the Gemini model using both text and image input, and switch between light and dark mode.",
+      "image": "/site/images/chat_bot_flutter.png",
+      "github": "https://github.com/manishgk9/chatbotgimini",
+      "key_technology": [
+        "🔥 Gemini API integration via flutter_gemini",
+        "🧠 BLoC pattern for clean state management",
+        "🌗 Light and dark mode with Hive-persistent theme preference",
+        "💬 Chat with Google Gemini using rich formatted text",
+        "📷 Send images from gallery and get visual context response",
+        "💾 Hive for storing theme settings and chat history (basic)"
+      ]
+    },
+
+    {
+      "title": "Awesome Vpn App",
+      "description": "Awesome Vpn is a secure, user-friendly mobile VPN application that allows users to connect to VPN servers worldwide. Built with Flutter and integrated with OpenVPN, this app ensures fast, reliable, and private internet access.",
+      "image": "/site/images/aowsom_vpn.png",
+      "github": "https://github.com/manishgk9/flutter-owsomevpn",
+      "key_technology": [
+        "Secure VPN Connections: Powered by OpenVPN protocol for high security.",
+        "Global Servers: Choose from multiple server locations worldwide.",
+        "Real-time VPN Status: View connection statistics such as data usage, connection duration, and last packet received.",
+        "Network Conditions: Intuitive network icons represent connection quality based on ping.",
+        "Country-specific Server Selection: Easily choose servers by country, complete with country flag, IP, and ping display.",
+        "Single Expansion for Server List: View only one expanded country at a time to keep the interface organized."
+      ]
+    },
+    {
+      "title": "Ai email sender",
+      "description": "AI Email Sender 2 is a modern web application that leverages artificial intelligence to compose and send personalized emails. Built with a React frontend using Tailwind CSS and Redux for state management, and a FastAPI backend integrated with the Gemini API for AI-driven content generation. The application utilizes Celery for asynchronous task processing, ensuring efficient email dispatch.",
+      "image": "/site/images/ai_email.webp",
+      "github": "https://github.com/manishgk9/ai_email_sender_2",
+      "key_technology": [
+        "AI-Powered Email Composition: Generate personalized email content using the Gemini API.",
+        "Responsive UI: Built with React and styled using Tailwind CSS for a modern, mobile-first design.",
+        "State Management: Utilizes Redux for predictable state management across the application.",
+        "Asynchronous Email Sending: Employs Celery with Redis for handling email dispatch in the background.",
+        "Secure Communication: Axios is used for making HTTP requests between the frontend and backend."
+      ]
+    },
+    {
+      "title": "Chatgpt Automation",
+      "description": "This project automates the process of interacting with ChatGPT through a web browser using Python, Selenium, and undetected-chromedriver. It simulates human-like interactions, manages the browser window, and handles prompts dynamically.",
+      "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xKN9vxrEgx3oyvfR8qzSFw.jpeg",
+      "github": "https://github.com/manishgk9/chatgpt-automation",
+      "key_technology": [
+        "Automated Browsing: Launches Chrome in an undetected mode to avoid detection.",
+        "Login Handling: Automatically handles login popups and stays logged out.",
+        "Human-like Interaction: Introduces random delays between actions to simulate human behavior.",
+        "Prompt Automation: Sends prompts to ChatGPT and retrieves the responses.",
+        "Session Management: Opens and closes the browser session cleanly, logging all actions."
+      ]
+    },
+    {
+      "title": "Automation Teligram Bot",
+      "description": "A Django REST Framework-based API backend built to automate task and productivity tracking for platforms like Hubstaff. Designed to integrate with bots (e.g., Telegram) or clients that require real-time interaction with user workflows like login, daily updates, task management, and more.",
+      "image": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709129751/catalog/1583087400805875712/e9ytogdm5j5qbexllaik.webp",
+      "github": "https://github.com/manishgk9/persist_automation_bot",
+      "key_technology": [
+        "🔐 Login: Automate login to platforms like Hubstaff.",
+        "✅ User Verification: Check if a Telegram user is authorized.",
+        "📆 Daily Update: Submit daily progress or work summaries.",
+        "📋 Task Management: Add, list, and track assigned tasks.",
+        "📝 Feedback: Submit structured feedback via API.",
+        "📊 Stats: View performance or work-related statistics.",
+        "🌴 Leave Status: Record leave or unavailability."
+      ]
+    },
+    {
+      "title": "Suno.com song generation",
+      "description": "This project automates the process of generating songs from suno.com using only your session cookie and a custom-built hCaptcha solver. It mimics real browser behavior via cloudscraper, extracts JWT tokens, solves captchas (if required), and generates/downloads songs using Suno's internal APIs.",
+      "image": "/site/images/suno_ai.jfif",
+      "github": "https://github.com/manishgk9/suno_song_generation_automation_without_captcha",
+      "key_technology": [
+        "🍪 Cookie-Based Auth – No login required, just use your __Secure-next-auth.session-token",
+        "🔐 JWT Token Extraction – From Clerk’s session API",
+        "🧩 hCaptcha Solver – Solves hCaptcha automatically using your custom AI or 2Captcha",
+        "🎵 Song Generation – Submits song prompts and retrieves clip/audio URLs",
+        "💻 Command Line Interface – Headless, fast automation from terminal",
+        "🌐 Cloudscraper – Bypasses Cloudflare and behaves like a browser"
+      ]
+    },
+    {
+      "title": "Brain Tumor Classification API",
+      "description": "A deep learning-powered FastAPI backend for classifying brain MRI images into 4 categories: Glioma Tumor,Meningioma Tumor,Pituitary Tumor,No Tumor This REST API uses a trained CNN model to serve real-time image classification predictions via a simple HTTP endpoint.",
+      "image": "/site/images/brain_tumer.jpg",
+      "github": "https://github.com/manishgk9/brain_tumer_detection_system",
+      "key_technology": [
+        "FastAPI for serving the API",
+        "TensorFlow / Keras for model inference",
+        "Uvicorn for ASGI server",
+        "Pillow / OpenCV for image processing"
+      ]
+    },
+    {
+      "title": "Emoji Prediction",
+      "description": "This project uses TensorFlow Keras to predict emojis based on text input. It leverages NLP techniques and deep learning models like LSTM and RNN to understand the sentiment or meaning of a sentence and suggest an appropriate emoji.",
+      "image": "/site/images/emoji_predict.jpg",
+      "github": "https://github.com/manishgk9/emoji_prediction_using_lstm",
+      "key_technology": [
+        "Predicts emojis from text input using a trained model.",
+        "Utilizes Sequential Keras architecture.",
+        "Supports LSTM, SimpleRNN, and Dense layers.",
+        "Trains on a dataset of text-emoji pairs.",
+        "Easy to extend to more emojis or larger datasets."
+      ]
+    },
+    {
+      "title": "Machine Learning Models",
+      "description": "This is a repository contains implementations of multiple supervised machine learning algorithms for classification problems. It includes training, evaluation, and comparison of the following models:",
+      "image": "/site/images/ml_models.jfif",
+      "github": "https://github.com/manishgk9/ml-algorithms",
+      "key_technology": [
+        "✅ Artificial Neural Network (ANN)",
+        "✅ Linear Regression (LR)",
+        "✅ Logistic Regression",
+        "✅ Support Vector Machine (SVM)",
+        "✅ Random Forest",
+        "✅ Decision Tree",
+        "✅ XGBoost",
+        "✅ K-Nearest Neighbors (KNN)"
+      ]
+    },
+
+    {
+      "title": "House Price Prediction",
+      "description": "A Jupyter Notebook-based project that demonstrates how to predict house prices using a simple linear regression model. Built using Python and designed for educational purposes and quick experimentation.",
+      "image": "/site/images/house_price.jfif",
+      "github": "https://github.com/manishgk9/house_price_prediction_linear_regression",
+      "key_technology": [
+        "Importing libraries: pandas, numpy, matplotlib, scikit-learn",
+        "Loading data from HousingData.csv",
+        "Exploratory Data Analysis (EDA): visualizations of relationships between features and price",
+        "Data Preprocessing: train-test splitting",
+        "Training a linear regression model",
+        "Evaluating using MSE and R²",
+        "Visualizing predictions vs actual values"
+      ]
+    },
+    {
+      "title": "Family Financial Management",
+      "description": "This is the backend for the Family Financial Management Dashboard, a full-stack platform designed to help family businesses manage their financial assets, transactions, documents, and notifications efficiently. Built with Django and Django REST Framework, it uses JWT authentication for secure access and provides role-based permissions, AI-driven insights, and seamless integration with a frontend application.",
+      "image": "/site/images/family_manage.jfif",
+      "github": "https://github.com/manishgk9/Family-Financial-Management-Dashboard",
+      "key_technology": [
+        " User Management: Role-based access (Admin, Family Member, Accountant) with JWT authentication.",
+        "Financial Asset Tracking: Manage bank accounts, properties, businesses, and securities.",
+        "Family Dashboard: Aggregated financial data.",
+        "Document Management: Store and manage documents with file uploads.",
+        "Transaction Monitoring: Track and categorize transactions.",
+        "Selective Data Sharing: Customizable permissions per user.",
+        "AI-Driven Insights: Budget recommendations and expense trends."
+      ]
+    },
+    {
+      "title": "flutter-calculator-app",
+      "description": "A modern calculator application built with Flutter, utilizing Provider for state management and Material UI for a sleek, responsive interface. This app demonstrates clean architecture, efficient state handling, and intuitive user interactions, making calculations seamless and visually appealing.",
+      "image": "/site/images/calculator_app.jfif",
+      "github": "https://github.com/manishgk9/flutter-calculator-app",
+      "key_technology": [
+        "Basic & Advanced Calculations: Perform addition, subtraction, multiplication, division, and more.",
+        "Clean UI with Material Design: Consistent and modern design with smooth animations.",
+        "State Management with Provider: Efficiently manages the app state for seamless calculation updates.",
+        "Responsive Layout: Works across mobile devices of various screen sizes.",
+        "History Tracking: Keep track of previous calculations (optional enhancement).",
+        "Extensible: Easy to add more functions or integrate into larger applications."
+      ]
+    },
+    {
+      "title": "Scrape and Display",
+      "description": "Engineered an elegant solution using Django, Requests, and BeautifulSoup to scrape data from e-commerce pages. Presented dynamically fetched data in a concise and user-friendly format. Implemented efficient scraping techniques to gather and display up-to-date product information. Created a visually engaging showcase that highlights the power of web scraping combined with modern frontend technologies.",
+      "image": "/site/images/scrap_and_display.jfif",
+      "github": "https://github.com/manishgk9/django-websraping-project/",
+      "key_technology": [
+        "E-commerce Data Scraping",
+        "Django, Requests, BeautifulSoup",
+        "Dynamic Data Presentation",
+        "Efficient Scraping Techniques",
+        "Modern Frontend Technologies"
+      ]
+    },
+    {
+      "title": "Realtime Stock Tracker",
+      "description": "Developed a dynamic stock tracker using Django, delivering live updates on stock prices and trends. Integrated with financial APIs using YFinance and Requests to fetch real-time stock data, ensuring users receive accurate and timely information. Utilized Django Channels to provide real-time updates, demonstrating Django's capabilities in building data-driven applications.",
+      "image": "/site/images/stock_tracker.jpg",
+      "github": "https://github.com/manishgk9/django-stock-tracker-project",
+      "key_technology": [
+        "Live Stock Price Updates",
+        "Django, Channels, YFinance",
+        "Real-time Data Integration",
+        "Financial API Integration",
+        "Data-Driven Application"
+      ]
+    },
+
+    {
+      "title": "YouTube Video Downloader",
+      "description": "A simple Python script that allows you to download YouTube videos directly to your local machine. Built using the lightweight and dependency-free Pytube library, this tool offers a straightforward command-line interface for downloading videos in high resolution.",
+      "image": "/site/images/youtube.jfif",
+      "github": "https://github.com/manishgk9/youtube-video-downloader-python/",
+      "key_technology": [
+        "Download Videos: Fetch videos from YouTube using their URLs.",
+        "High-Resolution Support: Automatically selects the highest available resolution.",
+        "No External Dependencies: Relies solely on the Pytube library."
+      ]
+    },
+    {
+      "title": "Social Hive Networking Site",
+      "description": "I built a social networking platform using Django, featuring custom user profiles, posts, comments, and follower/following functionality. Designed and implemented a dynamic user interface with HTML and JavaScript to enhance user interaction and experience. Developed a robust backend with Django to manage user data, posts, comments, and relationships efficiently. Currently hosted on Pythonanywhere.",
+      "image": "/site/images/hive_sotial.png",
+      "github": "https://github.com/manishgk9/socialhive-django",
+      "key_technology": [
+        "A user authentication",
+        "Posts, Comments, Follower Functionality",
+        "Dynamic HTML & JavaScript UI",
+        "Robust Django Backend jinja 2",
+        "MySQL Database Integration",
+        "Currently hosted on Pythonanywhere"
+      ]
+    }
+  ]
+}
