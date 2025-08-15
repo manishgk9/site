@@ -184,6 +184,23 @@
       ]
     },
     {
+      "title": "New Feed Flutter App",
+      "description": "A modern Flutter news feed application with bookmarking, offline support, and rich UI features.",
+      "image": "/site/images/feed_app.png",
+      "github": "https://github.com/manishgk9/news_feed_app",
+      "key_technology": [
+        "📰 Latest News: Fetch trending news from various sources.",
+        "📑 Bookmarks: Save articles to read later with offline access.",
+        "📑 Pegination: infine scrolling to fetch peginated data",
+        "🔍 Search: Search for news articles by keyword.",
+        "📡 Offline Handling: Detect network connectivity using connectivity_plus.",
+        "📤 Sharing: Share news articles using share_plus.",
+        "🎨 Professional UI: Smooth animations, shimmer loading, and modern design.",
+        "🖋️ Custom Fonts: Integrated Google Fonts for a polished look.",
+        "🌙 Dark & Light Mode: Adaptive themes for user comfort."
+      ]
+    },
+    {
       "title": "Ai email sender",
       "description": "AI Email Sender 2 is a modern web application that leverages artificial intelligence to compose and send personalized emails. Built with a React frontend using Tailwind CSS and Redux for state management, and a FastAPI backend integrated with the Gemini API for AI-driven content generation. The application utilizes Celery for asynchronous task processing, ensuring efficient email dispatch.",
       "image": "/site/images/ai_email.webp",
