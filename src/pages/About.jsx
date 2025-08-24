@@ -31,7 +31,7 @@ export default function About() {
           View My Work
         </Link>
         <a
-          href="/site/resume/manish_ressume.pdf"
+          href="/site/resume/manish_resume.pdf"
           download
           className="border border-blue-500 text-blue-500 px-4 py-3 rounded-md hover:bg-blue-50"
         >
