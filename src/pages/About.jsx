@@ -10,14 +10,10 @@ export default function About() {
         className="rounded-full w-32 h-32 mx-auto mb-5 border-2 border-gray-200 shadow-sm object-cover animate-fade-in-up"
       ></img>
       <div className="text-center mb-12">
-        <div className="flex flex-col-2 justify-center">
-          <h1 className="text-4xl font-bold mb-4 text-gray-700 pr-2">
-            Hi, I'm{" "}
-          </h1>
-          <h1 className="text-4xl font-bold mb-4 text-blue-500">
-            Manish Yadav
-          </h1>
-        </div>
+        <h1 className="text-4xl font-bold mb-4 text-gray-700">
+          Hi, I'm <span className="text-blue-500">Manish Yadav</span>
+        </h1>
+
         <p className=" text-gray-500 font-extralight text-md">
           Welcome to my portfolio. I’m a developer passionate about creating
           impactful digital experiences.
